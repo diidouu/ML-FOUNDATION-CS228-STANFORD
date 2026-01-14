@@ -1,4 +1,4 @@
-# CS229 Autumn 2018
+# CS229 STANFORD UNIVERSITY
 
 All lecture notes, slides and assignments for [CS229: Machine Learning](http://cs229.stanford.edu/) course by Stanford University.
 
