@@ -33,12 +33,16 @@ def main(train_path, eval_path, pred_path):
     x2_vals = -(theta[0] + theta[1] * x1_vals) / theta[2]
     plt.plot(x1_vals, x2_vals, label='Decision boundary')
     plt.legend()
-    plt.title("Decision boundary after training")
+    plt.title("LOGISTIC REGRESSION : Decision boundary after training")
+    plt.savefig('output/logreg_decision_boundary.png', dpi=300)
+
     plt.show()
+    
 
     preds = model.predict(x_eval)
     np.savetxt(pred_path, preds)
     # *** END CODE HERE ***
+
 
 
 class LogisticRegression(LinearModel):
